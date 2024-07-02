@@ -64,6 +64,12 @@ class MainActivity : AppCompatActivity() {
         Log.v("LIVE_CYCLE", "onStart")
     }
 
+    override fun onRestart() {
+        super.onRestart()
+
+        Log.d("LIVE_CYCLE", "onRestart")
+    }
+
     override fun onResume() {
         super.onResume()
 

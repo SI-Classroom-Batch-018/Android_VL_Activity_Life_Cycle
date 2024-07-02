@@ -7,6 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/counter_card" />
+
     <TextView
         android:id="@+id/tv_counter"
         android:layout_width="wrap_content"
